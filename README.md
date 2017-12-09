@@ -9,9 +9,11 @@ photo large de dehors :
 
 
 Vaart Kapoen :
+
 salle du vk avec texte déroulant + 3 bouttons audio
 popup sur dada + Maguy+ anne valérie.
 
 Le Phare : 
+
 photo dehors + bouton sur la porte d’entrée avec effet son + texte à droite déroulant 
 photo à l’intérieur avec bouton sur le comptoir avec popu sur Julien + bouton sur une table avec popup mourad
