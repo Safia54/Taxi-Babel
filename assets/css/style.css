@@ -6,10 +6,6 @@ html, body {
 
 
 
-
-
-
-
 /*GPS*/
 
 #gps img{
@@ -18,10 +14,15 @@ html, body {
 
 }
 
+#gps nav{
+	background-image: url(../images/bruxelles-map.gif);
+}
+
 #gps ul{
     width: 400px;
     height: 150px;
     overflow-y: auto;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
@@ -37,11 +38,12 @@ html, body {
     display: block;
     text-decoration: none;
     color: #000;
-    background-color: #eee;
+    background-color: rgba(255,255,255, 0.5) ;
+    background-opacity: 0.5;
     padding: 12px;
 }
 
 #gps a:hover{
-    background-color: #ccc;
+    background-color: rgba(204,204,204, 0.8) ;
 }
 
