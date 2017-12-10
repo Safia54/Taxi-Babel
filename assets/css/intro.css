@@ -1,0 +1,42 @@
+#video-background{
+  /*  making the video fullscreen  */
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+
+}
+
+.secondvid{
+  z-index: 1;
+}
+
+body {
+  height:900px;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container {
+  margin: 550px auto 30px auto;
+  z-index:1;
+  bottom:0;
+  font-family: 'Bungee', cursive;
+  position: fixed;
+
+}
+.head p{
+  color: #fdc10a; /*yellow*/
+  margin-bottom: 600px;
+  font-family: 'Bungee', cursive;
+  font-size: 12px;
+}
+
+.startbutton{
+  margin-bottom: 5px;
+}
