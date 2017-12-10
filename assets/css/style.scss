@@ -35,12 +35,6 @@ body{
     right: 0;
     top: 0;
     bottom: 0;
-
-    //test popup
-
-    color: #34a58e;
-    text-decoration: none;
-    outline: none;
   }
 
   img{
@@ -53,12 +47,6 @@ body{
     right: -20px;
     top: -20px;
     bottom:-20px;
-    // box-shadow: 0 2px 2px #FAF2AE;
-
-    // test popup
-
-    border-bottom-color: transparent;
-    color: #34a58e !important;
   }
 
 
@@ -78,24 +66,22 @@ height: 100px;
 }
 
 .test3{
-  left: 50%;
-  top: 50%;
-  background-color: red;
+left: 63.4%;
+top: 81.3%;
+width: 10%;
+height: 34%;
 }
+
 .test4{
-  left: 70%;
-  top: 70%;
-  background-color: red;
+  left: 49.68%;
+  top: 47.3%;
+  width: 100px;
+  height: 80px;
 }
-.test5{
-  left: 90%;
-  top: 90%;
-  background-color: red;
-}
-.test6{
-  left: 100%;
-  top: 100%;
-  background-color: red;
+
+
+#gps * {
+ display: none;
 }
 
 
