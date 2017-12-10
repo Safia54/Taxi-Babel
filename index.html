@@ -34,43 +34,76 @@
 
 				<div class="test test2">
 					<div class="nav">
-						<a href="#"> 
-							<img src="assets/images/taxi/radio.png"></a>
+						<button><a href="#"><img src="assets/images/taxi/radio.png"></a></button>
+							<!-- The Modal -->
+
+						<div class="modal">
+
+									<!-- Modal content -->
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<img src="assets/images/taxi/radio.png">
+							</div>
 						</div>
 					</div>
-					<div class="test test3">
-						<div class="nav">
-							<a href="#"><img src="assets/images/taxi/white-sheet.png"></a>
-						</div>
-					</div>
-					<div class="test test4">
-						<div class="nav">
-							<a href="#"><img src="assets/images/taxi/gps2.png"></a>
+				</div> 
+				
+
+				<div class="test test3">
+					<div class="nav">
+						<button class="myBtn"><a href="#"><img src="assets/images/taxi/white-sheet.png"></a></button>
+
+						<!-- The Modal -->
+
+						<div class="modal">
+
+									<!-- Modal content -->
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<img src="assets/images/taxi/white-sheet.png">
+							</div>
 						</div>
 					</div>
 				</div>
+
+				<div class="test test4">
+					<div class="nav">
+						<button class="myBtn"><a href="#"><img src="assets/images/taxi/gps2.png"></a></button>
+							<!-- The Modal -->
+						<div class="modal">
+
+							<!-- Modal content -->
+							<div class="modal-content">
+								<span class="close">&times;</span>
+								<img src="assets/images/taxi/gps2.png">
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
+		</div>
 
-<!-- NICO MODALS -->
-
-			<!-- Trigger/Open The Modal -->
-			<button id="myBtn">Open Modal</button>
-
-			<!-- The Modal -->
-			<div id="myModal" class="modal">
-
-				<!-- Modal content -->
-				<div class="modal-content">
-					<span class="close">&times;</span>
-					<p>Some text in the Modal..</p>
-				</div>
-
-			</div> 
 
 
 <script src="assets/js/script.js"></script> 
 
-	  <!-- test popup -->
+	  <!-- test MODAL -->
+
+<script type="text/javascript">
+		// When the user clicks on the button, open the modal
+		$(".myBtn").click(function() {
+			console.log("clicked btn");
+		    $(".modal").css("display", "none");
+		    $(this).parent().children(".modal").css("display","block")
+		});
+
+		// When the user clicks on <span> (x), close the modal
+		$(".close").click(function() {
+			console.log("clicked close");
+		    $(".modal").css("display", "none");
+		});
+</script>
 
 
 
