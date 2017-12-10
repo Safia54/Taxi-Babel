@@ -1,0 +1,57 @@
+.video-background{
+  /*  making the video fullscreen  */
+    position:fixed;
+    width: : 100%;
+    height: 100%;
+    z-index: -100;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: 550px auto 30px auto;
+  z-index:1;
+  bottom:0;
+  font-family: 'Bungee', cursive;
+  position: fixed;
+
+}
+.header p{
+  color: #fdc10a; /*yellow*/
+  margin-bottom: 600px;
+  font-family: 'Bungee', cursive;
+  font-size: 12px;
+  position: relative;
+  z-index: -90;
+}
+
+.startbutton{
+  margin-bottom: 5px;
+}
+
+
