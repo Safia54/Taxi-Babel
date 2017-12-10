@@ -117,3 +117,6 @@ body {
   margin-bottom: 5px;
 }
 
+.hide{
+    display: none;
+}
