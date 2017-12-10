@@ -1,16 +1,20 @@
 html, body {
   min-height: 100%;
-  height: 100%; 
- }
+  height: 100%; }
 
+body {
+  box-sizing: border-box; }
 
-
+.wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative; }
 
 .inner {
-  width: 200%;
+  width: 150%;
   height: 120%;
-  position: absolute; 
-}
+  position: absolute; }
 
 .test {
   height: auto;
@@ -19,11 +23,8 @@ html, body {
   z-index: 1;
   left: 50%;
   top: 50%;
-
-  transform: translate(-50%, -50%); 
-}
-
-.test a {
+  transform: translate(-50%, -50%); }
+  .test a {
     display: block;
     position: absolute;
     left: 0;
@@ -36,8 +37,7 @@ html, body {
     transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
     border-bottom: dotted 1px;
     color: #34a58e;
-    text-decoration: none; 
-}
+    text-decoration: none; }
   .test img {
     width: 100%;
     height: 100%; }
@@ -49,14 +49,17 @@ html, body {
     border-bottom-color: transparent;
     color: #34a58e !important; }
 
->>>>>>> 4258f8a92fc5cf63b9a71412170c0b69d482b937
-.test2 {
-  left: 49.68%;
-  top: 70.3%;
-  width: 128px;
+.test1 {
+  left: 20%;
+  top: 20%;
+  width: 100px;
   height: 100px; }
 
-<<<<<<< HEAD
+.test2 {
+  left: 40%;
+  top: 40%;
+  background-color: red; }
+
 .test3 {
   left: 50%;
   top: 50%;
@@ -76,7 +79,7 @@ html, body {
   left: 100%;
   top: 100%;
   background-color: red; }
-=======
+
 .poptrox-popup::before {
   -moz-transition: opacity 0.2s ease-in-out;
   -webkit-transition: opacity 0.2s ease-in-out;
@@ -95,47 +98,5 @@ html, body {
   width: 100%;
   z-index: 1;
   opacity: 1; }
->>>>>>> 4258f8a92fc5cf63b9a71412170c0b69d482b937
 
 /*# sourceMappingURL=style.css.map */
-
-
-/*GPS*/
-
-#gps img{
-    height: 55%;
-    width: 55%;
-}
-
-#gps nav{
-	background-image: url(../images/bruxelles-map.gif);
-}
-
-#gps ul{
-    width: 400px;
-    height: 150px;
-    overflow-y: auto;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-
-#gps span{
-	display: block;
-  	padding: 12px;
-  	color: #fff;
-  	font-weight: bold;
-  	background-color: green;
-}
-
-#gps a{
-    display: block;
-    text-decoration: none;
-    color: #000;
-    background-color: rgba(255,255,255, 0.5) ;
-    background-opacity: 0.5;
-    padding: 12px;
-}
-
-#gps a:hover{
-    background-color: rgba(204,204,204, 0.8) ;
-}
