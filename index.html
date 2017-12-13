@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Taxi-Babel</title>
-		<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		
-		<!-- FONTAWESOME -->
-	  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<!-- FONT GPS -->
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/intro.css">
+
+    <title>Taxi Babel</title>
+    <script>
+      function timer(){
+        setTimeout(
+          function(){
+            var hide = document.querySelectorAll('.hide');
+            for(var i = 0; i < hide.length; i++){
+              hide[i].classList.remove('hide');
+            }
+          }, 7000);
+        }
+
+      timer();
+    </script>
+  </head>
+
+  <body>
+
+    <div class="main">
+      <video class="video-background" playsinline autoplay preload >
+        <!-- <source src="assets/videos/intro_taxi_babel.webm" type="video/webm"> -->
+        <source src="assets/videos/intro_taxi_babel.mp4" type="video/mp4" >
+    </video>
+      <div class="hide header d-flex flex-column column justify-content-center align-items-center text-center">
+        <p class="hide">Web-documentaire réalisé dans le cadre du Hackathon "Bruxelles-Babel" organisé par le Festival Millenium</p>
+      </div>
+      <div class="hide container">
+        <div class="vertical-center col-12 d-flex flex-column justify-content-start align-items-center">
+          <div class="buttons d-flex flex-column justify-content-center align-items-center">
+            <div class="startbutton">
+              <button type="button" class="btn btn-outline-warning">
+                <a href="intro.html">Commencez votre voyage ici</a>
+              </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-outline-warning">
+                <a href="#">Equipe Taxi Babel</a>
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                <a href="#"> Contact</a>
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                <a href="#">Citations cultes de Tintin</a>
+              </button>
+            </div>
+          </div>
+        </div>
 
 
-	</head>
-	<body>
-		<div class="wrapper">
-	    <div class="inner">
-	      <img src="assets/images/taxi-back-sit-2.png" alt="" width="100%" height="100%" />
+    </div>
 
-	      <div class="test test1">
-				<div class="nav">
-					<a href="#">
-						<img src="assets/images/taxi/vitre-gauche.png">
-					</a>
-				</div>
-		  </div>
-
-		  <div class="test test2">
-			<div class="nav">
-				<a href="#"> 
-					<img src="assets/images/taxi/radio.png"></a>
-			</div>
-		  </div>
-		  <div class="test test3">
-			<div class="nav">
-				<a href="#"><img src="assets/images/taxi/white-sheet.png"></a>
-			</div>
-		  </div>
-		  <div class="test test4">
-			<div class="nav">
-				<a href="#"><img src="assets/images/taxi/gps2.png"></a>
-			</div>
-		  </div>
-	    </div>
-	  </div>
-
-	  <script src="assets/js/script.js"></script>
-	  <script src="assets/js/jquery.poptrox.min.js"></script>
-
-
-
-	  <div id="gps">
-				<nav>
-					<ul>
-						<li><span>Choisissez votre destination : </span></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Café de la place - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Place communale - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-						<li><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i> Centre culturel - 1080 Molenbeek</a></li>
-					</ul>
-				</nav>
-			</div>
-	  </div>  
-	</body>
+  </body>
 </html>

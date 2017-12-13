@@ -1,146 +1,108 @@
+@charset "UTF-8";
 html, body {
-min-height: 100%;
-height: 100%; }
+  min-height: 100%;
+  height: 100%; }
 
 body {
-box-sizing: border-box; }
+  box-sizing: border-box; }
 
 .wrapper {
-overflow: hidden;
-width: 100%;
-height: 100%;
-position: relative; }
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: relative; }
 
 .inner {
-width: 200%;
-height: 120%;
-position: absolute; 
-}
+  width: 200%;
+  height: 120%;
+  position: absolute; }
 
 .test {
-height: auto;
-position: absolute;
-top: 0%;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-outline: none; 
-z-index: 1;
-}
+  height: auto;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  outline: none; }
 
 a {
-display: block;
-position: absolute;
-left: 0;
-right: 0;
-top: 0;
-bottom: 0; }
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0; }
 
 img {
-width: 100%;
-height: 100%; }
+  width: 100%;
+  height: 100%; }
 
 a:hover {
-left: -20px;
-right: -20px;
-top: -20px;
-bottom: -20px; }
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px; }
 
 .test1 {
-left: 12%;
-top: 42%;
-width: 23.5%;
-height: 84%; }
+  left: 12%;
+  top: 42%;
+  width: 23.5%;
+  height: 84%; }
 
 .test2 {
-left: 49.68%;
-top: 70.3%;
-width: 128px;
-height: 100px; 
-}
+  left: 49.68%;
+  top: 70.3%;
+  width: 128px;
+  height: 100px; }
 
 .test3 {
-left: 63.4%;
-top: 81.3%;
-width: 10%;
-height: 34%; }
+  left: 63.4%;
+  top: 81.3%;
+  width: 10%;
+  height: 34%; }
 
 .test4 {
-left: 49.68%;
-top: 47.3%;
-width: 100px;
-height: 80px; }
+  left: 49.68%;
+  top: 47.3%;
+  width: 100px;
+  height: 80px; }
 
 #gps * {
-display: none; }
+  display: none; }
+
+#bg_vk_ext {
+  background-image: url("../images/reportages/VK_extérieur.jpg");
+  background-repeat: none; }
+
+#bg_vk_int {
+  background-image: url("../images/reportages/VK_intérieur.jpg");
+  background-repeat: none; }
+
+h1, .boite, img {
+  color: white; }
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.boite {
+  border: 25px solid white;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.boutonRond {
+  width: 50px;
+  height: 50px;
+  background: #cc0000;
+  font: bold 13px Arial;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  margin-left: 1000px;
+  margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */
-
-
-/*GPS*/
-
-#gps img{
-    height: 55%;
-    width: 55%;
-}
-
-#gps nav{
-	/*background-image: url(../images/bruxelles-map.gif);*/
-}
-
-#gps ul{
-    width: 400px;
-    height: 150px;
-    overflow-y: auto;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-#gps a:hover{
-    background-color: rgba(204,204,204, 0.8) ;
-}
-
-
-
-
- /* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: absolute; /* Stay in place */
-    z-index: 5; /* Sit on top */
-    left: 50%;
-    top: 50%;
-    width: 700px; /* Full width */
-    height: 500px; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
-    overflow: hidden;
-    transform: translate(-50%, -50%);
-    border-radius: 30px;
-   
-}
-
-
-/* Modal Content/Box */
-.modal-content {
-    /*background-color: #000;*/
-    margin: 0 auto; /* 15% from the top and centered */
-    padding: 0px;
-    transition: 2s ease;
-    /*width: 300%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-} 
-
